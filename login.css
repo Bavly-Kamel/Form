@@ -232,3 +232,23 @@ body{
     transform: rotate(-11deg) skewY(-44deg);
     transform-origin: bottom left;
 } */
+
+
+@media (max-width:767px) {
+    .wrapper {
+        width: 330px;
+        height: 450px;
+    }
+    .form-box.login{
+        width: 100%;
+    }
+    .wrapper .form-box.login {
+        padding: 30px;
+    }
+    .info-text.login{
+        display: none;
+    }
+    .pg-animation{
+        display: none;
+    }
+}

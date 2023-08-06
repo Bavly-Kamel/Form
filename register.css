@@ -233,3 +233,22 @@ body{
     transform: rotate(-11deg) skewY(-44deg);
     transform-origin: bottom left;
 }
+
+
+@media (max-width:767px) {
+    .wrapper {
+        width: 330px;
+        height: 600px;
+    }
+    .info-text.register {
+        display: none;
+    }
+    .pg-animation,
+    .pg-animation-2 {
+        display: none;
+    }
+    .wrapper .form-box.register {
+        width: 100%;
+        padding: 30px;
+    }
+}
